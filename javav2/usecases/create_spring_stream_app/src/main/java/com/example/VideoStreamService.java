@@ -202,7 +202,7 @@ public class VideoStreamService {
                 Element id = doc.createElement( "Name" );
                 id.appendChild( doc.createTextNode(myItem.getName() ) );
                 item.appendChild( id );
-.
+
                 // Set Description.
                 Element name = doc.createElement( "Description" );
                 name.appendChild( doc.createTextNode(myItem.getDesc() ) );
